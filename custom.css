@@ -1,0 +1,100 @@
+body {
+    margin:0;
+    overflow: hidden;
+}
+
+/***Background***/
+
+#BackgroundImage {
+    position: static;
+    width: 100%;
+    height:100%;
+    background-size:cover;
+    background-repeat: repeat-y;
+    top:0%;
+    left:0%;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
+#WebsiteHeader {
+    position:absolute;
+    height:12%;
+    width:auto;
+    left:0%;
+    right:0%;
+    margin: auto;
+    top:2%;
+    z-index: 2;
+}
+
+/***inputbox***/
+
+#inputbox {
+    position:fixed;
+    height: 80%;
+    width:30%;
+    top:10%;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    background-color:rgba(220,220,220,0.5);
+}
+
+.mainhead {
+    padding:2%;
+    font-size:120%;
+    left: 8%;
+    top:10%;
+    position:fixed;
+    
+}
+
+.mainhead2 {
+    padding:2%;
+    font-size:120%;
+    left: 8%;
+    top:20%;
+    position:fixed;
+    
+}
+
+.mainhead3 {
+    padding:2%;
+    font-size:120%;
+    left: 8%;
+    top:30%;
+    position:fixed;
+    
+}
+
+
+.buttons {
+    z-index:3;
+    width:30%;
+    background-color: rgba(0,0,0,0);
+    padding: 15px 15px;
+    font-size:100%;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.buttons:hover {
+    background:rgba(150,150,250,0.7);
+    border-radius: 10px;
+}
+
+#submit {
+    position:absolute;
+    bottom:2%;
+}
+
+#input {
+    left:5%;
+}
+
+.questionheaders {
+    font-size:100%;
+}

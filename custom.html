@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Fender Guitars 2017</title>
+            <link href="custom.css" type="text/css" rel="stylesheet">
+        </head>
+        
+        <body>
+            <div id="Background">
+                <a href="index.html">
+                    <img id="WebsiteHeader" src="img/Fender_logo.png">
+                </a>
+                <img id="BackgroundImage" src="img/light-wood-BK.png">
+            </div>
+            
+            <div id="inputbox">
+                <h2 class="mainhead">Choose your parts to find out the cost</h2>
+                <!--<h2 class= "mainhead2">The cost of your guitar is: </h2>
+                <h2 class="mainhead3">Average cost of custom guitar is: </h2>-->
+                
+                <form id="quiz" name = "quiz">
+                    
+                <h3 class="questionheaders">Select your body type:</h3>
+                    <input id="bodyinput" type="radio" name="bodytype" value="Stratocaster"> Stratocaster <br>
+                    <input id="bodyinput" type="radio" name="bodytype" value="Telecaster"> Telecaster <br>
+                    <input id="bodyinput" type="radio" name="bodytype" value="Jaguar"> Jaguar <br>
+                    <input id="bodyinput" type="radio" name="bodytype" value="Jazzmaster"> Jazzmaster <br>
+                    <input id="bodyinput" type="radio" name="bodytype" value="Mustang"> Mustang <br>
+                    <input id="bodyinput" type="radio" name="bodytype" value="Duo-Sonic"> Duo-Sonic <br>               
+                
+                <h3 class="questionheaders">Select your neck type:</h3>
+                    <input id="neckinput" type="radio" name="necktype" value="Maple"> Maple <br>
+                    <input id="neckinput" type="radio" name="necktype" value="Rosewood"> Rosewood <br>
+                    <input id="neckinput" type="radio" name="necktype" value="Ebony"> Ebony <br>
+                
+                <h3 class="questionheaders">Select your pickups:</h3>
+                    <input id="pickupinput" type="radio" name="pickuptype" value="Single Coil"> Single Coil <br>
+                    <input id="pickupinput" type="radio" name="pickuptype" value="Texmex"> Texmex <br>
+                    <input id="pickupinput" type="radio" name="pickuptype" value="Humbuckers"> Humbuckers <br>
+                    <input id="pickupinput" type="radio" name="pickuptype" value="p90"> P90 <br>
+                
+                <h3 class="questionheaders">Select your colour:</h3>
+                    <input id="colorinput" type="color" name="color">
+                
+                <button id="submit" class="buttons" onclick="check();">Submit Your Guitar</button>
+                    
+                </form>
+                
+                
+            </div>
+            
+            <script src="customjs.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,78 @@
+body {
+    margin:0;
+    overflow: hidden;
+}
+
+/***Background***/
+
+#BackgroundImage {
+    position: static;
+    width: 100%;
+    height:100%;
+    background-size:cover;
+    background-repeat: repeat-y;
+    top:0%;
+    left:0%;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
+#WebsiteHeader {
+    position:absolute;
+    height:12%;
+    width:auto;
+    left:0%;
+    right:0%;
+    margin: auto;
+    top:2%;
+    z-index: 2;
+}
+
+#headstock {
+    position:fixed;
+    width:auto;
+    height:60%;
+    bottom:0%;
+    left:0%;
+    right:0%;
+    top:0px;
+    margin: auto;
+}
+
+#headpic {
+    position:fixed;
+    width:auto;
+    height:60%;
+    bottom:0%;
+    left:20%;
+    right:0%;
+    top:0px;
+    margin: auto;
+}
+
+#letters {
+    position:fixed;
+    width:auto;
+    height:60%;
+    bottom:0%;
+    left:40%;
+    right:58%;
+    top:0px;
+    margin: auto;
+}
+
+#info {
+    position:fixed;
+    top:0%;
+    left:10%;
+    bottom:-90%;
+    right:0%;
+    margin:auto;
+    width:70vw;
+    height:20vh;
+}
+
+#header {
+    font-size:150%;
+}

@@ -1,0 +1,106 @@
+body {
+    margin:0;
+    overflow: hidden;
+}
+
+/***Background***/
+
+#BackgroundImage {
+    position: static;
+    width: 100%;
+    height:100%;
+    background-size:cover;
+    background-repeat: repeat-y;
+    top:0%;
+    left:0%;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
+#WebsiteHeader {
+    position:absolute;
+    height:12%;
+    width:auto;
+    left:0%;
+    right:0%;
+    margin: auto;
+    top:2%;
+    z-index: 2;
+}
+
+/***10 Interactions***/
+#Interactions {
+    background-color:rgba(220,220,220,0.5);
+    width:40%;
+    height:50%;
+    left:7.6%;
+    top:30%;
+    position:absolute;
+}
+
+#InteractionImages {
+    width:100%;
+    height:100%;
+}
+
+.intimg {
+    width:100%;
+    height:auto;
+}
+
+.imgcontainer {
+    width:33.3%;
+    height:auto;
+    float:left;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.imgcontainer:hover {
+    background:rgba(150,150,250,0.7);
+    border-radius: 10px;
+}
+
+#InteractionHeader {
+    text-align: center;
+    position:static;
+    top:2%;
+    font-size: 300%;
+}
+
+/***InfoBox***/
+
+#InfoBox {
+position:absolute;
+width:40%;
+height:77%;
+right:7.6%;
+top:17%;
+background-color:rgba(220,220,220,0.5)
+}
+
+#InfoBoxHeader {
+    text-align: center;
+    position: static;
+    top:2%;
+    font-size: 300%;
+}
+
+#InfoBoxImg {
+    width:80%;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
+
+#InfoBoxPara {
+    position:absolute;
+    top:50%;
+    text-align: center;
+    left:0px;
+    right:0px;
+    font-family: "Arial";
+    font-size: 150%;
+}
+
